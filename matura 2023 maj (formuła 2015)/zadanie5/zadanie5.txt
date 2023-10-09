@@ -1,0 +1,9 @@
+Etykiety wierszy	Suma z dostawa_malin	Suma z dostawa_truskawek	Suma z dostawa_porzeczek
+maj			9238				9287					3309
+cze			9485				8916					5081
+lip			11592				11339					10567
+sie			11045				11386					11078
+wrz			6532				7476					6355
+
+
+
