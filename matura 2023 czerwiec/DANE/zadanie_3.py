@@ -31,7 +31,6 @@ def podpunkt_1(file_lines):
 def podpunkt_2(file_content):
 
     liczby = []
-    max_lenght = 0
 
     for line in file_content:
 
@@ -52,8 +51,6 @@ if __name__ == '__main__':
         text = text.split('\n')
 
         wynikf = open('./wynik3.txt', 'w')
+
         wynik_1 = podpunkt_1(text)
-
         wynik_2 = podpunkt_2(text)
-
-        # wynikf.write(str(wynik[0]) + " " + str(wynik[1]))
