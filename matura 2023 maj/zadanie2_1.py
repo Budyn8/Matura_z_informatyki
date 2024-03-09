@@ -1,15 +1,13 @@
 if __name__ == '__main__':
-    number: int = 67
+    n: int = 245
 
-    odpowiedz = 1
-    before = number%2
-    number = (number - before)/2
+    b = 0
+    memo = 0
 
-    while number > 0 :
-        temp = number%2
-        if before != temp:
-            odpowiedz += 1
-            before = temp
-        number = (number - temp)/2
+    while n > 0:
+        if n%2 != memo:
+            b+=1
+            memo=n%2
+        n = (n-memo)/2
 
-    print( odpowiedz )
+    print( b )
