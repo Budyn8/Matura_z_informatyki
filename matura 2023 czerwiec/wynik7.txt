@@ -1,0 +1,12 @@
+1.
+    Tablet 267
+    Phone 2814
+    PC 16
+2.
+    Samsung 478
+3.
+    SWITZERLAND 5.28
+    SLOVENIA 4.35
+    IRELAND 3.91
+    AUSTRIA 3.84
+    CZECH REPUBLIC 3.76
