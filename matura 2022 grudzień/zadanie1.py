@@ -3,10 +3,11 @@ def przyklad_1():
             .read())
     anws = 0
     i = len(dane) - 1
-    while i > 0:
-        if dane[i] != dane[i - 1]:
+    j = 1
+    while j < i:
+        if dane[j] != dane[j - 1]:
             anws += 1
-        i -= 1
+        j += 1
     return anws
 
 
@@ -20,10 +21,10 @@ def przyklad_2():
     i = len(dane)
     j = 0
     while j < i:
-        if wynik_a >= 1000 and wynik_b + 3 < wynik_a:
-            return str(wynik_a) + ':' + str(wynik_b)
-        elif wynik_b >= 1000 and wynik_a + 3 < wynik_b:
-            return str(wynik_a) + ':' + str(wynik_b)
+        if wynik_a >= 1000 and wynik_b + 3 <= wynik_a:
+            return 'A ' + str(wynik_a) + ':' + str(wynik_b)
+        elif wynik_b >= 1000 and wynik_a + 3 <= wynik_b:
+            return 'B ' + str(wynik_a) + ':' + str(wynik_b)
         else:
             if dane[j] == 'A':
                 wynik_a += 1

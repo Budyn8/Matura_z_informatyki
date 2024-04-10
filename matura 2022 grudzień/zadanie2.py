@@ -1,5 +1,5 @@
 def jest_polaczony(x, y):
-    if x*2 == y:
+    if x*2 == y or x*2 + 1 == y:
         return True
     if x > y:
         return False
